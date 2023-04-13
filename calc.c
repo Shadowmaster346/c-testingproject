@@ -4,7 +4,6 @@ int main() {
 float fst;
 float scd;
 char ndm;
-char plus = "+";
 printf("Small calculator\n");
 printf("Type your first number\n");
 scanf("%f", &fst);
@@ -22,6 +21,12 @@ printf("%f\n", fst+scd);
 break;
 case '-':
 printf("%f\n", fst-scd);
+break;
+case '*':
+printf("%f\n", fst*scd);
+break;
+case '/':
+printf("%f\n", fst/scd);
 break;
 }
 
